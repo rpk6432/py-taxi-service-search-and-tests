@@ -19,7 +19,7 @@ class ModelsTest(TestCase):
             username="test_username",
             first_name="Test",
             last_name="User",
-            license_number="ABC123456"
+            license_number="ABC12345"
         )
         self.assertEqual(str(driver), "test_username (Test User)")
 
